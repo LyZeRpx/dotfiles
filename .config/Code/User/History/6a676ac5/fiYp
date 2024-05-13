@@ -1,0 +1,42 @@
+##
+## EPITECH PROJECT, 2023
+## MAKEFILE
+## File description:
+## FILEMAKE
+##
+
+CC ?= gcc
+
+AR ?= ar
+
+RM = rm
+
+SRC 	=	./test.c 		\
+
+NAME = ai
+
+VPATH = ./headers
+
+CPPFLAGS = -iquote $(VPATH) -Wall -Wextra -Wno-unused-variable
+
+LDFLAGS = -L./lib -lputstr
+
+OBJ	= $(SRC:.c=.o)
+
+all:	$(NAME)
+
+$(NAME): $(OBJ)
+	$(CC) $(CPPFLAGS) -o $(NAME) $(OBJ) $(LDFLAGS)
+
+clean:
+	$(RM) -f $(OBJ)
+
+fclean: clean
+	$(RM) -f $(NAME)
+
+re: fclean all
+
+debug: CFLAGS += -g3
+debug: re
+
+.PHONY: all clean fclean re debug \

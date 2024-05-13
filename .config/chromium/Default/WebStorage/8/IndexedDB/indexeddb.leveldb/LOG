@@ -1,0 +1,4 @@
+2024/05/07-19:12:41.964 1351 Reusing MANIFEST /home/lyzer/.config/chromium/Default/WebStorage/8/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/05/07-19:12:41.965 1351 Recovering log #27
+2024/05/07-19:12:41.965 1351 Reusing old log /home/lyzer/.config/chromium/Default/WebStorage/8/IndexedDB/indexeddb.leveldb/000027.log 
+2024/05/07-19:12:41.965 1351 Delete type=2 #25

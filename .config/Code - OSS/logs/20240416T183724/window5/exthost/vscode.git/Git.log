@@ -1,0 +1,43 @@
+2024-04-16 19:16:13.322 [info] Log level: Info
+2024-04-16 19:16:13.322 [info] Validating found git in: "git"
+2024-04-16 19:16:13.322 [info] Using git "2.44.0" from "git"
+2024-04-16 19:16:13.322 [info] > git rev-parse --show-toplevel [3ms]
+2024-04-16 19:16:13.322 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-16 19:16:13.322 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-16 19:16:13.322 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-16 19:16:13.322 [info] > git rev-parse --show-toplevel [1ms]
+2024-04-16 19:16:13.322 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-16 19:16:13.339 [info] > git rev-parse --show-toplevel [17ms]
+2024-04-16 19:16:13.339 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-16 19:16:13.378 [info] > git rev-parse --show-toplevel [1ms]
+2024-04-16 19:16:13.378 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-16 19:16:13.402 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-16 19:16:13.402 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-16 19:17:56.354 [info] > git rev-parse --show-toplevel [1ms]
+2024-04-16 19:17:56.354 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-16 19:38:06.883 [info] > git rev-parse --show-toplevel [1ms]
+2024-04-16 19:38:06.883 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-16 19:58:58.642 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-16 19:58:58.642 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-16 19:59:03.138 [info] > git rev-parse --show-toplevel [1ms]
+2024-04-16 19:59:03.143 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-04-16 19:59:03.151 [info] Open repository: /home/lyzer/lib_workshop
+2024-04-16 19:59:03.167 [info] No remotes found in the git config file.
+2024-04-16 19:59:03.167 [info] > git config --get commit.template [9ms]
+2024-04-16 19:59:03.168 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-04-16 19:59:03.168 [warning] No such branch: master.
+2024-04-16 19:59:03.176 [info] > git status -z -uall [3ms]
+2024-04-16 19:59:03.190 [info] > git config --get commit.template [2ms]
+2024-04-16 19:59:03.195 [info] No remotes found in the git config file.
+2024-04-16 19:59:03.198 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-04-16 19:59:03.198 [warning] No such branch: master.
+2024-04-16 19:59:03.203 [info] > git status -z -uall [1ms]
+2024-04-16 19:59:03.471 [info] > git show --textconv :metamorph_lib/src/get_array_size.c [3ms]
+2024-04-16 19:59:03.472 [info] > git ls-files --stage -- /home/lyzer/lib_workshop/metamorph_lib/src/get_array_size.c [1ms]
+2024-04-16 19:59:03.693 [info] > git check-ignore -v -z --stdin [0ms]
+2024-04-16 20:00:24.791 [info] > git config --get commit.template [5ms]
+2024-04-16 20:00:24.792 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-04-16 20:00:24.798 [info] > git status -z -uall [3ms]
+2024-04-16 20:00:24.842 [info] > git ls-files --stage -- /home/lyzer/lib_workshop/metamorph_lib/src/get_array_size.c [1ms]
+2024-04-16 20:00:24.849 [info] > git cat-file -s 0f37df6e9a3296c035766ac567bad5a5303ce1e9 [1ms]
+2024-04-16 20:00:24.858 [info] > git show --textconv :metamorph_lib/src/get_array_size.c [2ms]

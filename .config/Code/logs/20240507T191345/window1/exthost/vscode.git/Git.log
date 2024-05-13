@@ -1,0 +1,25 @@
+2024-05-07 19:13:48.554 [info] Log level: Info
+2024-05-07 19:13:48.554 [info] Validating found git in: "git"
+2024-05-07 19:13:48.554 [info] Using git "2.45.0" from "git"
+2024-05-07 19:13:48.554 [info] > git rev-parse --show-toplevel [31ms]
+2024-05-07 19:13:48.554 [info] > git rev-parse --git-dir --git-common-dir [25ms]
+2024-05-07 19:13:48.554 [info] Open repository: /home/lyzer/my_rpg
+2024-05-07 19:13:48.554 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-07 19:13:48.554 [info] > git config --get commit.template [7ms]
+2024-05-07 19:13:48.566 [info] > git rev-parse --show-toplevel [8ms]
+2024-05-07 19:13:48.571 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-05-07 19:13:48.596 [info] > git rev-parse --show-toplevel [25ms]
+2024-05-07 19:13:48.617 [info] > git status -z -uall [11ms]
+2024-05-07 19:13:48.624 [info] > git rev-parse --show-toplevel [22ms]
+2024-05-07 19:13:48.632 [info] > git merge-base refs/heads/main refs/remotes/origin/main [11ms]
+2024-05-07 19:13:48.637 [info] > git rev-parse --show-toplevel [6ms]
+2024-05-07 19:13:48.637 [info] > git config --get commit.template [9ms]
+2024-05-07 19:13:48.667 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [31ms]
+2024-05-07 19:13:48.674 [info] > git rev-parse --show-toplevel [23ms]
+2024-05-07 19:13:48.677 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-05-07 19:13:48.677 [info] > git diff --name-status -z --diff-filter=ADMR 1f706441d6533e6cf26504cf9ad1201486d480f0...refs/remotes/origin/main [7ms]
+2024-05-07 19:13:48.682 [info] > git status -z -uall [1ms]
+2024-05-07 19:13:48.894 [info] > git show --textconv :src/description.c [2ms]
+2024-05-07 19:13:48.895 [info] > git ls-files --stage -- /home/lyzer/my_rpg/src/description.c [1ms]
+2024-05-07 19:13:48.898 [info] > git cat-file -s 76a06c005a57ccdd9638ee59e9e853e1709448ee [1ms]
+2024-05-07 19:13:49.112 [info] > git check-ignore -v -z --stdin [0ms]

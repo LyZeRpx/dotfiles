@@ -1,0 +1,7 @@
+2024/04/14-18:40:05.663 b22 Reusing MANIFEST /home/lyzer/.config/chromium/Default/IndexedDB/https_word-edit.officeapps.live.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/14-18:40:05.663 b22 Recovering log #3
+2024/04/14-18:40:05.665 b22 Reusing old log /home/lyzer/.config/chromium/Default/IndexedDB/https_word-edit.officeapps.live.com_0.indexeddb.leveldb/000003.log 
+2024/04/14-18:40:10.370 b1a Level-0 table #5: started
+2024/04/14-18:40:10.377 b1a Level-0 table #5: 403106 bytes OK
+2024/04/14-18:40:10.378 b1a Delete type=0 #3
+2024/04/14-18:40:10.379 b1a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

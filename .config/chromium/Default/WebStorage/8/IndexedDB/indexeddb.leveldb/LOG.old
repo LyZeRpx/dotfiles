@@ -1,0 +1,14 @@
+2024/05/07-17:24:12.538 c64 Reusing MANIFEST /home/lyzer/.config/chromium/Default/WebStorage/8/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/05/07-17:24:12.538 c64 Recovering log #23
+2024/05/07-17:24:12.538 c64 Reusing old log /home/lyzer/.config/chromium/Default/WebStorage/8/IndexedDB/indexeddb.leveldb/000023.log 
+2024/05/07-17:24:12.552 c71 Level-0 table #28: started
+2024/05/07-17:24:12.553 c71 Level-0 table #28: 959 bytes OK
+2024/05/07-17:24:12.554 c71 Delete type=0 #23
+2024/05/07-17:24:12.554 c64 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/05/07-17:24:12.554 c64 Manual compaction at level-1 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00@\x85\xc0\xf0\xf4xB\x00\x03\x00\x00\x00\x00\x00\x00:@' @ 8662 : 0
+2024/05/07-17:24:12.554 c64 Compacting 1@1 + 1@2 files
+2024/05/07-17:24:12.555 c64 Generated table #29@1: 46 keys, 1249 bytes
+2024/05/07-17:24:12.555 c64 Compacted 1@1 + 1@2 files => 1249 bytes
+2024/05/07-17:24:12.556 c64 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/05/07-17:24:12.556 c64 Delete type=2 #28
+2024/05/07-17:24:12.556 c64 Manual compaction at level-1 from '\x00\x05\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00@\x85\xc0\xf0\xf4xB\x00\x03\x00\x00\x00\x00\x00\x00:@' @ 8662 : 0 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

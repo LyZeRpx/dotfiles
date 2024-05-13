@@ -1,0 +1,6 @@
+2024/04/19-16:15:42.055 4d0 Creating DB /home/lyzer/.config/chromium/Default/WebStorage/22/IndexedDB/indexeddb.leveldb since it was missing.
+2024/04/19-16:15:42.057 4d0 Reusing MANIFEST /home/lyzer/.config/chromium/Default/WebStorage/22/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/04/19-16:15:48.915 4c7 Level-0 table #5: started
+2024/04/19-16:15:48.917 4c7 Level-0 table #5: 1200 bytes OK
+2024/04/19-16:15:48.918 4c7 Delete type=0 #3
+2024/04/19-16:15:48.918 4c7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

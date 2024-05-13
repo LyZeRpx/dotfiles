@@ -1,0 +1,36 @@
+2024/05/07-16:53:43.598 643 Reusing MANIFEST /home/lyzer/.config/chromium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/05/07-16:53:43.598 643 Recovering log #9
+2024/05/07-16:53:43.599 643 Reusing old log /home/lyzer/.config/chromium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000009.log 
+2024/05/07-16:53:43.599 643 Delete type=2 #7
+2024/05/07-16:53:43.789 64e Level-0 table #14: started
+2024/05/07-16:53:43.790 64e Level-0 table #14: 2295 bytes OK
+2024/05/07-16:53:43.790 64e Delete type=0 #9
+2024/05/07-16:53:43.791 642 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 284 : 1
+2024/05/07-16:53:43.791 642 Compacting 1@0 + 1@1 files
+2024/05/07-16:53:43.792 642 Generated table #15@0: 96 keys, 2350 bytes
+2024/05/07-16:53:43.792 642 Compacted 1@0 + 1@1 files => 2350 bytes
+2024/05/07-16:53:43.792 642 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/07-16:53:43.793 642 Delete type=2 #14
+2024/05/07-16:53:43.793 642 Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 284 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/05/07-16:57:43.160 64d Level-0 table #17: started
+2024/05/07-16:57:43.161 64d Level-0 table #17: 3875 bytes OK
+2024/05/07-16:57:43.162 64d Delete type=2 #11
+2024/05/07-16:57:43.162 64d Delete type=0 #13
+2024/05/07-16:57:43.162 642 Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x00\x00\x05' @ 377 : 1
+2024/05/07-16:57:43.162 642 Compacting 1@0 + 1@1 files
+2024/05/07-16:57:43.163 642 Generated table #18@0: 119 keys, 2579 bytes
+2024/05/07-16:57:43.163 642 Compacted 1@0 + 1@1 files => 2579 bytes
+2024/05/07-16:57:43.163 642 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/07-16:57:43.164 642 Delete type=2 #17
+2024/05/07-16:57:43.164 642 Manual compaction at level-0 from '\x00\x08\x00\x00\x05' @ 377 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/05/07-16:57:53.524 642 Level-0 table #20: started
+2024/05/07-16:57:53.525 642 Level-0 table #20: 2301 bytes OK
+2024/05/07-16:57:53.526 642 Delete type=2 #15
+2024/05/07-16:57:53.526 642 Delete type=0 #16
+2024/05/07-16:57:53.526 642 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\x05' @ 434 : 1
+2024/05/07-16:57:53.526 642 Compacting 1@0 + 1@1 files
+2024/05/07-16:57:53.527 642 Generated table #21@0: 135 keys, 2746 bytes
+2024/05/07-16:57:53.527 642 Compacted 1@0 + 1@1 files => 2746 bytes
+2024/05/07-16:57:53.528 642 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/07-16:57:53.528 642 Delete type=2 #20
+2024/05/07-16:57:53.528 642 Manual compaction at level-0 from '\x00\x09\x00\x00\x05' @ 434 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)

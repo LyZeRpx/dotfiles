@@ -1,0 +1,20 @@
+2024/05/11-15:10:29.183 b51 Reusing MANIFEST /home/lyzer/.config/chromium/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2024/05/11-15:10:29.183 b51 Recovering log #31
+2024/05/11-15:10:29.191 b51 Reusing old log /home/lyzer/.config/chromium/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/000031.log 
+2024/05/11-15:10:33.845 b5c Level-0 table #37: started
+2024/05/11-15:10:33.865 b5c Level-0 table #37: 2393075 bytes OK
+2024/05/11-15:10:33.866 b5c Delete type=0 #31
+2024/05/11-15:10:33.986 b52 Level-0 table #39: started
+2024/05/11-15:10:34.008 b52 Level-0 table #39: 2360117 bytes OK
+2024/05/11-15:10:34.009 b52 Delete type=0 #36
+2024/05/11-15:10:34.219 b52 Level-0 table #41: started
+2024/05/11-15:10:34.237 b52 Level-0 table #41: 1843553 bytes OK
+2024/05/11-15:10:34.239 b52 Delete type=0 #38
+2024/05/11-15:15:12.686 b51 Compacting 1@1 + 2@2 files
+2024/05/11-15:15:12.714 b51 Generated table #42@1: 5 keys, 2386876 bytes
+2024/05/11-15:15:12.715 b51 Generated table #43@1: 9 keys, 590 bytes
+2024/05/11-15:15:12.715 b51 Compacted 1@1 + 2@2 files => 2387466 bytes
+2024/05/11-15:15:12.716 b51 compacted to: files[ 2 0 2 0 0 0 0 ]
+2024/05/11-15:15:12.716 b51 Delete type=2 #33
+2024/05/11-15:15:12.716 b51 Delete type=2 #34
+2024/05/11-15:15:12.716 b51 Delete type=2 #37

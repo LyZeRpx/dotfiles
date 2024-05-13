@@ -1,0 +1,28 @@
+{
+   "background": {
+      "service_worker": "scripts/background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "inject.css" ],
+      "js": [ "inject.js" ],
+      "matches": [ "https://intra.epitech.eu/*" ]
+   } ],
+   "description": "Graphical interface for Epitech intranet with more statistics",
+   "differential_fingerprint": "1.78a570777cfe0b19be6f8ace4fbd044b8442cfd1262420414f2c48e789c8d57e",
+   "host_permissions": [ "https://intra.epitech.eu/*", "https://*.microsoftonline.com/*", "https://*.live.com/*" ],
+   "icons": {
+      "128": "icons/logo_128x128.png",
+      "16": "icons/logo_16x16.png",
+      "48": "icons/logo_48x48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgWUqsKKjboVSlffmCmGgls80i5/dvUabIceFqAqMld5ixOoBsvFg5gx1PaoSAOLi9BHA1G3hfec5w2RR3ag1eOj4A+Po+E7CHmJrOqF7GbuqFC1VWEfh55AbniFsk3NMOyK1CfcAFEx8wtQjVWjqoRwPMC1tU85KL1LBKKtHUOeXV2XtWTPIGwvhiNNdQ9ibyr877pHTw2p7qzMOCOZgJB3fcZjSK2w7WTm29LHWsgwvY4fjlm7QW/kM0QJy0uho0/dJDNPn9xYTj9Ky1i46WyprChwEY9YrsSkOF1ZxzIqlFdtx2Jl7UpwwFZErYZl5+vnz1o9DWeDuCiscJ8EWswIDAQAB",
+   "manifest_version": 3,
+   "name": "Epitech Intranet Statistics",
+   "permissions": [ "tabs", "cookies", "activeTab", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.0",
+   "web_accessible_resources": [ {
+      "matches": [ "https://intra.epitech.eu/*" ],
+      "resources": [ "inject.js", "index.html" ]
+   } ]
+}

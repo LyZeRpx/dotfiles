@@ -1,0 +1,6 @@
+2024/04/18-19:41:42.034 29a8 Creating DB /home/lyzer/.config/chromium/Default/IndexedDB/https_forums.futura-sciences.com_0.indexeddb.leveldb since it was missing.
+2024/04/18-19:41:42.036 29a8 Reusing MANIFEST /home/lyzer/.config/chromium/Default/IndexedDB/https_forums.futura-sciences.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/18-19:41:44.086 29a8 Level-0 table #5: started
+2024/04/18-19:41:44.088 29a8 Level-0 table #5: 2939 bytes OK
+2024/04/18-19:41:44.089 29a8 Delete type=0 #3
+2024/04/18-19:41:44.089 29a8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,10 @@
+*.o
+*~
+*#
+.vscode
+vgcore*
+*.out
+*.log
+*tmp*
+metamorph_lib
+my_libc

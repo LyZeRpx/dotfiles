@@ -1,0 +1,15 @@
+ai
+*.o
+*~
+*#
+.vscode
+vgcore*
+a.out
+compile_flags.txt
+coding-style-reports.log
+tests
+metamorph_lib
+*.sh
+my_libc
+CoppeliaSim_Edu_V4_1_0_Ubuntu20_04
+n4*

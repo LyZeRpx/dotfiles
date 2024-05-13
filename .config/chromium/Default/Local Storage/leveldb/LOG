@@ -1,0 +1,6 @@
+2024/05/11-15:15:44.572 4 Reusing MANIFEST /home/lyzer/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2024/05/11-15:15:44.577 4 Recovering log #962
+2024/05/11-15:15:44.578 4 Reusing old log /home/lyzer/.config/chromium/Default/Local Storage/leveldb/000962.log 
+2024/05/11-15:17:50.709 4 Level-0 table #969: started
+2024/05/11-15:17:50.712 4 Level-0 table #969: 24576 bytes OK
+2024/05/11-15:17:50.714 4 Delete type=0 #962

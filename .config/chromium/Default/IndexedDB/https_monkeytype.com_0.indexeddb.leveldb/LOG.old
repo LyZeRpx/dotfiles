@@ -1,0 +1,13 @@
+2024/04/26-14:28:14.144 681 Reusing MANIFEST /home/lyzer/.config/chromium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/26-14:28:14.144 681 Recovering log #6
+2024/04/26-14:28:14.144 681 Reusing old log /home/lyzer/.config/chromium/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000006.log 
+2024/04/26-14:28:14.263 684 Level-0 table #10: started
+2024/04/26-14:28:14.265 684 Level-0 table #10: 3088 bytes OK
+2024/04/26-14:28:14.266 684 Delete type=0 #6
+2024/04/26-14:28:14.266 67e Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 227 : 1
+2024/04/26-14:28:14.266 67e Compacting 1@0 + 1@1 files
+2024/04/26-14:28:14.267 67e Generated table #11@0: 87 keys, 2277 bytes
+2024/04/26-14:28:14.267 67e Compacted 1@0 + 1@1 files => 2277 bytes
+2024/04/26-14:28:14.268 67e compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/04/26-14:28:14.268 67e Delete type=2 #10
+2024/04/26-14:28:14.268 67e Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 227 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

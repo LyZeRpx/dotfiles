@@ -1,0 +1,15 @@
+2024/04/29-13:55:55.789 546 Reusing MANIFEST /home/lyzer/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/29-13:55:55.790 546 Recovering log #37
+2024/04/29-13:55:55.799 546 Reusing old log /home/lyzer/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000037.log 
+2024/04/29-15:10:23.063 547 Level-0 table #42: started
+2024/04/29-15:10:23.068 547 Level-0 table #42: 977792 bytes OK
+2024/04/29-15:10:23.069 547 Delete type=0 #37
+2024/04/29-15:10:23.070 547 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2024/04/29-15:10:23.070 547 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x16\x01 \x03\x00\x00\x00\x00\x00\x00\xf0?\x00\x04\x02\x01\x17\x00s\x00e\x00r\x00v\x00i\x00c\x00e\x00:\x00t\x00o\x00p\x00b\x00a\x00r\x00:\x00f\x00a\x00l\x00l\x00b\x00a\x00c\x00k\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 4500 : 1
+2024/04/29-15:10:23.070 547 Compacting 1@1 + 1@2 files
+2024/04/29-15:10:23.073 547 Generated table #43@1: 361 keys, 38577 bytes
+2024/04/29-15:10:23.073 547 Compacted 1@1 + 1@2 files => 38577 bytes
+2024/04/29-15:10:23.074 547 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/04/29-15:10:23.074 547 Delete type=2 #39
+2024/04/29-15:10:23.074 547 Delete type=2 #42
+2024/04/29-15:10:23.075 547 Manual compaction at level-1 from '\x00\x16\x01 \x03\x00\x00\x00\x00\x00\x00\xf0?\x00\x04\x02\x01\x17\x00s\x00e\x00r\x00v\x00i\x00c\x00e\x00:\x00t\x00o\x00p\x00b\x00a\x00r\x00:\x00f\x00a\x00l\x00l\x00b\x00a\x00c\x00k\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 4500 : 1 .. (end); will stop at (end)

@@ -1,0 +1,13 @@
+{
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "*://my.epitech.eu/*" ]
+   } ],
+   "description": "Show each project passing tests percentage on my.epitech.eu",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgcjXzVmDkExPPNwdnDdqLZR4iXdnRGFkLfNxAtNY1qpc3EpRp8R2eV8XWuCr9l07Tk5VCGdyUF7QzL1zhVSFNVcLKcJi5hEfqn+H8blhdEsUv8mGtnrkWZS1jf/6/PMj6NVf2QHvC/nAWDwiTFuDQR3utxYInxxpCxVYj1t9v0zyTFn2y8Elq/AE6SxPj00SIQD0I7qe+PzWRx333Lno/DDcLmLYj/j7/CZpjusO3q4WNA67FnWOf8cT4S0oQ9LrmXUZzK/8UE6ZuemhYHO1Pjfh8EtyLGqTw2KniPqQAVHtebOJgCW5SdWyquKzUD4RLKqBfz7YE2GsUVL5jdasxQIDAQAB",
+   "manifest_version": 2,
+   "name": "My Epitech Percentages",
+   "permissions": [ "*://my.epitech.eu/*", "https://api.epitest.eu/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.1"
+}

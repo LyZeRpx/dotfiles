@@ -1,0 +1,46 @@
+##
+## EPITECH PROJECT, 2023
+## MAKEFILE
+## File description:
+## FILEMAKE
+##
+
+CC ?= gcc
+
+AR ?= ar
+
+RM = rm
+
+SRC 	=	main/main.c 							\
+			src/file_to_str.c						\
+
+NAME = word_counter
+
+VPATH = ./headers
+
+CPPFLAGS = -iquote $(VPATH) -Wall -Wextra
+
+LDFLAGS = -L./libraries/metamorph_lib/ -lmeta -L./libraries/my_libc -lmy
+
+OBJ	= $(SRC:.c=.o)
+
+all:	$(NAME)
+
+$(NAME): $(OBJ)
+	make -C libraries/metamorph_lib
+	$(CC) $(CFLAGS) $(CPPFLAGS) -o $(NAME) $(OBJ) $(LDFLAGS)
+
+clean:
+	make clean -C libraries/metamorph_lib
+	$(RM) -f $(OBJ)
+
+fclean: clean
+	make fclean -C libraries/metamorph_lib
+	$(RM) -f $(NAME)
+
+re: fclean all
+
+debug: CFLAGS += -g3
+debug: re
+
+.PHONY: all clean fclean re debug \

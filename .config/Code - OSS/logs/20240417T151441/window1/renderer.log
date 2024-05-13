@@ -1,0 +1,5 @@
+2024-04-17 15:14:43.833 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/lyzer/lib_workshop/mmlib/.:exit","scheme":"file"},"type":1,"exists":false}],"filesToDiff":[],"filesToMerge":[]}
+2024-04-17 15:14:44.085 [info] Started local extension host with pid 5452.
+2024-04-17 15:14:46.628 [info] [perf] Render performance baseline is 19ms
+2024-04-17 15:15:06.593 [warning] [backup tracker] suspended, ignoring dirty change event untitled:/home/lyzer/lib_workshop/mmlib/.%3Aexit 
+2024-04-17 15:15:06.604 [warning] [backup tracker] suspended, ignoring unregister event untitled:/home/lyzer/lib_workshop/mmlib/.%3Aexit 

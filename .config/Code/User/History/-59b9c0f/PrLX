@@ -1,0 +1,53 @@
+##
+## EPITECH PROJECT, 2023
+## MAKEFILE
+## File description:
+## FILEMAKE
+##
+
+AR ?= ar
+
+RM = rm
+
+SRC 	= src/meta_atoi.c				\
+		  src/meta_is_prime.c			\
+		  src/meta_isneg.c				\
+		  src/meta_mprintf.c			\
+		  src/meta_promote_rank1.c		\
+		  src/meta_put_nbr.c			\
+		  src/meta_putchar.c			\
+		  src/meta_putstr.c				\
+		  src/meta_rank1cat.c			\
+		  src/meta_strcmp.c				\
+		  src/meta_rank1dup.c			\
+		  src/meta_strlen.c				\
+		  src/meta_strncmp.c			\
+
+
+NAME = libmeta_libc.a
+
+VPATH = ./headers
+
+HPATH = ./headers/subheaders
+
+CPPFLAGS = -iquote $(VPATH) -iquote $(HPATH) -Wall -Wextra
+
+OBJ	= $(SRC:.c=.o)
+
+all:	$(NAME)
+
+$(NAME): $(OBJ)
+	$(AR) -rc $(NAME) $(OBJ)
+
+clean:
+	$(RM) -f $(OBJ)
+
+fclean: clean
+	$(RM) -f $(NAME)
+
+re: fclean all
+
+debug: CFLAGS += -g3
+debug: re
+
+.PHONY: all clean fclean re debug \

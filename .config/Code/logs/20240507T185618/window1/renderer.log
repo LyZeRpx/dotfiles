@@ -1,0 +1,10 @@
+2024-05-07 18:56:18.848 [info] Started local extension host with pid 1450.
+2024-05-07 18:56:19.886 [error] Cannot read properties of undefined (reading 'accessToken'): TypeError: Cannot read properties of undefined (reading 'accessToken')
+    at b.h (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1693:21270)
+    at b.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1693:22006)
+    at u.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1693:21027)
+2024-05-07 18:56:21.466 [info] [perf] Render performance baseline is 13ms
+2024-05-07 18:56:41.026 [error] [Extension Host] (node:1450) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [WebSocketConnection]. Use emitter.setMaxListeners() to increase limit
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2024-05-07 18:56:41.026 [error] [Extension Host] (node:1450) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 error listeners added to [WebSocketConnection]. Use emitter.setMaxListeners() to increase limit
+2024-05-07 18:56:41.026 [error] [Extension Host] (node:1450) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [WebSocketConnection]. Use emitter.setMaxListeners() to increase limit

@@ -1,0 +1,7 @@
+2024/04/29-14:46:15.800 547 Reusing MANIFEST /home/lyzer/.config/chromium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/29-14:46:15.801 547 Recovering log #3
+2024/04/29-14:46:15.801 547 Reusing old log /home/lyzer/.config/chromium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000003.log 
+2024/04/29-14:46:47.811 547 Level-0 table #5: started
+2024/04/29-14:46:47.813 547 Level-0 table #5: 4207 bytes OK
+2024/04/29-14:46:47.814 547 Delete type=0 #3
+2024/04/29-14:46:47.815 547 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

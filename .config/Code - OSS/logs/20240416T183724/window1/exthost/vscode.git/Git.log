@@ -1,0 +1,41 @@
+2024-04-16 18:37:25.752 [info] Log level: Info
+2024-04-16 18:37:25.752 [info] Validating found git in: "git"
+2024-04-16 18:37:25.752 [info] Using git "2.44.0" from "git"
+2024-04-16 18:37:25.752 [info] > git rev-parse --show-toplevel [3ms]
+2024-04-16 18:37:25.752 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-04-16 18:37:25.752 [info] Open repository: /home/lyzer/B-AIA-200-PAR-2-1-n4s-louis.thomas
+2024-04-16 18:37:25.762 [info] > git config --get commit.template [6ms]
+2024-04-16 18:37:25.764 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-16 18:37:25.764 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-16 18:37:25.774 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-04-16 18:37:25.779 [warning] ENOENT: no such file or directory, open '/home/lyzer/B-AIA-200-PAR-2-1-n4s-louis.thomas/.git/refs/remotes/origin/main'
+2024-04-16 18:37:25.779 [info] > git rev-parse --show-toplevel [7ms]
+2024-04-16 18:37:25.783 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-04-16 18:37:25.789 [info] > git rev-parse --show-toplevel [6ms]
+2024-04-16 18:37:25.800 [info] > git rev-parse --show-toplevel [7ms]
+2024-04-16 18:37:25.806 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-16 18:37:25.812 [info] > git rev-parse --show-toplevel [1ms]
+2024-04-16 18:37:25.817 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-16 18:37:25.883 [info] > git status -z -uall [95ms]
+2024-04-16 18:37:25.903 [info] > git merge-base refs/heads/main refs/remotes/origin/main [12ms]
+2024-04-16 18:37:25.910 [info] > git config --get commit.template [7ms]
+2024-04-16 18:37:25.911 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-04-16 18:37:25.920 [info] > git diff --name-status -z --diff-filter=ADMR b793eafed3b8e41ccb614a335ab47ed8deec3880...refs/remotes/origin/main [5ms]
+2024-04-16 18:37:25.922 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-04-16 18:37:25.926 [warning] ENOENT: no such file or directory, open '/home/lyzer/B-AIA-200-PAR-2-1-n4s-louis.thomas/.git/refs/remotes/origin/main'
+2024-04-16 18:37:25.928 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-04-16 18:37:26.014 [info] > git status -z -uall [83ms]
+2024-04-16 18:37:26.282 [info] > git check-ignore -v -z --stdin [2ms]
+2024-04-16 18:37:28.179 [info] > git show --textconv :src/loop.c [4ms]
+2024-04-16 18:37:28.180 [info] > git ls-files --stage -- /home/lyzer/B-AIA-200-PAR-2-1-n4s-louis.thomas/src/loop.c [2ms]
+2024-04-16 18:37:28.184 [info] > git cat-file -s 6def86c7a646c644e49fc683243eaaaf820a0386 [1ms]
+2024-04-16 18:37:48.990 [info] > git config --get commit.template [4ms]
+2024-04-16 18:37:48.991 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-04-16 18:37:48.995 [warning] ENOENT: no such file or directory, open '/home/lyzer/B-AIA-200-PAR-2-1-n4s-louis.thomas/.git/refs/remotes/origin/main'
+2024-04-16 18:37:48.996 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-04-16 18:37:49.057 [info] > git status -z -uall [58ms]
+2024-04-16 18:38:40.698 [info] > git config --get commit.template [0ms]
+2024-04-16 18:38:40.702 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-04-16 18:38:40.704 [warning] ENOENT: no such file or directory, open '/home/lyzer/B-AIA-200-PAR-2-1-n4s-louis.thomas/.git/refs/remotes/origin/main'
+2024-04-16 18:38:40.705 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-04-16 18:38:40.753 [info] > git status -z -uall [46ms]

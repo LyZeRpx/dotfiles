@@ -1,0 +1,24 @@
+2024-05-12 11:45:24.826 [info] Log level: Info
+2024-05-12 11:45:24.826 [info] Validating found git in: "git"
+2024-05-12 11:45:24.826 [info] Using git "2.45.0" from "git"
+2024-05-12 11:45:24.826 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-12 11:45:24.826 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-05-12 11:45:24.826 [info] Open repository: /home/lyzer/B-AIA-200-PAR-2-1-n4s-louis.thomas
+2024-05-12 11:45:24.834 [info] > git config --get commit.template [5ms]
+2024-05-12 11:45:24.835 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-12 11:45:24.846 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-12 11:45:24.847 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-05-12 11:45:24.860 [info] > git rev-parse --show-toplevel [8ms]
+2024-05-12 11:45:24.863 [info] > git status -z -uall [6ms]
+2024-05-12 11:45:24.870 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2024-05-12 11:45:24.874 [info] > git rev-parse --show-toplevel [11ms]
+2024-05-12 11:45:24.878 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [5ms]
+2024-05-12 11:45:24.882 [info] > git rev-parse --show-toplevel [5ms]
+2024-05-12 11:45:24.891 [info] > git show --textconv HEAD:src/loop.c [5ms]
+2024-05-12 11:45:24.892 [info] > git diff --name-status -z --diff-filter=ADMR 499fcca4db48b38ead5505ca5fe043d6d3c28e98...refs/remotes/origin/main [11ms]
+2024-05-12 11:45:24.892 [info] > git ls-tree -l HEAD -- /home/lyzer/B-AIA-200-PAR-2-1-n4s-louis.thomas/src/loop.c [2ms]
+2024-05-12 11:45:25.086 [info] > git ls-tree -l HEAD -- /home/lyzer/B-AIA-200-PAR-2-1-n4s-louis.thomas/src/loop.c [14ms]
+2024-05-12 11:45:25.363 [info] > git check-ignore -v -z --stdin [2ms]
+2024-05-12 11:45:25.440 [info] > git config --get commit.template [5ms]
+2024-05-12 11:45:25.446 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-12 11:45:25.454 [info] > git status -z -uall [3ms]

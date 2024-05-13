@@ -1,0 +1,14 @@
+libmeta-ranks.a
+*.o
+*~
+*#
+.vscode
+vgcore*
+*.out
+*.log
+*tmp*
+metamorph_lib
+metalibc
+\#*#
+\#*
+main

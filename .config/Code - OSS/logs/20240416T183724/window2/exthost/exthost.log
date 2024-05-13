@@ -1,0 +1,12 @@
+2024-04-16 18:39:31.731 [info] Extension host with pid 4295 started
+2024-04-16 18:39:31.731 [info] Skipping acquiring lock for /home/lyzer/.config/Code - OSS/User/workspaceStorage/920cc3a756d6e9fc8b7f1e03f6993c73.
+2024-04-16 18:39:31.852 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-16 18:39:32.119 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-16 18:39:32.156 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-16 18:39:32.178 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-16 18:39:32.218 [info] Eager extensions activated
+2024-04-16 18:39:32.282 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-16 18:39:32.284 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-16 18:39:32.288 [info] ExtensionService#_doActivateExtension shardulm94.trailing-spaces, startup: false, activationEvent: 'onStartupFinished'
+2024-04-16 18:45:24.059 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-04-16 19:20:22.650 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:https'

@@ -1,0 +1,60 @@
+##
+## EPITECH PROJECT, 2023
+## MAKEFILE
+## File description:
+## FILEMAKE
+##
+
+CC ?= gcc
+
+SRC 	=	src/clone_dbl_arr.c					\
+			src/count_target.c					\
+			src/return_line_from_delim.c		\
+			src/return_index_from_delim.c		\
+			src/print_dbl_array.c				\
+			src/free_dbl_array.c				\
+			src/get_array_size.c				\
+			src/strcut.c						\
+			my_libc/mini_printf.c				\
+			my_libc/my_put_nbr.c				\
+			my_libc/my_putchar.c				\
+			my_libc/my_putstr.c					\
+			my_libc/my_realloc.c				\
+			my_libc/my_str_to_word_array.c		\
+			my_libc/my_strcmp.c					\
+			my_libc/my_strconcat.c				\
+			my_libc/my_strdup.c					\
+			my_libc/my_strlen.c					\
+			my_libc/my_strncmp.c				\
+
+NAME	=	libstr.a
+
+RM ?= rm
+
+VPATH = ./headers
+
+CFLAGS = -Wall -Wextra -iquote $(VPATH)
+
+OBJ	= $(SRC:.c=.o)
+
+all:	$(NAME)
+
+$(NAME): $(OBJ)
+make -C my_libc
+	ar rc $(NAME) $(OBJ)
+
+clean:
+	$(RM) -f $(OBJ)
+
+fclean: clean
+	$(RM) -f $(NAME)
+
+re: fclean all
+
+debug: CFLAGS += -g3
+debug: compil
+
+compil: re
+	$(CC) $(CFLAGS) -L. main.c -o test -lstr
+
+.PHONY: all clean fclean re debug compil \

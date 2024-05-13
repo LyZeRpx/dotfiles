@@ -1,0 +1,39 @@
+##
+## EPITECH PROJECT, 2023
+## MAKEFILE
+## File description:
+## This makefile is the root of the compiling tree,
+## it is where you can choose which module to include to your code.
+##
+
+AR ?= ar
+
+RM = rm
+
+SRC 	=	my_putchar.c		\
+
+NAME = libputchar.a
+
+VPATH = ./headers
+
+CPPFLAGS = -iquote $(VPATH) -Wall -Wextra
+
+OBJ	= $(SRC:.c=.o)
+
+all:	$(NAME)
+
+$(NAME): $(OBJ)
+	$(AR) -rc $(NAME) $(OBJ)
+
+clean:
+	$(RM) -f $(OBJ)
+
+fclean: clean
+	$(RM) -f $(NAME)
+
+re: fclean all
+
+debug: CFLAGS += -g3
+debug: re
+
+.PHONY: all clean fclean re debug \

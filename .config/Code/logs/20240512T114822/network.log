@@ -1,0 +1,11 @@
+2024-05-12 11:48:25.134 [error] electron #1: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_INTERNET_DISCONNECTED
+2024-05-12 11:48:25.831 [error] electron #2: https://update.code.visualstudio.com/api/update/linux-x64/stable/e170252f762678dec6ca2cc69aba1570769a5d39 - error undefined net::ERR_INTERNET_DISCONNECTED
+2024-05-12 11:48:27.132 [error] electron #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2024-05-12 11:48:29.378 [error] electron #4: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2024-05-12 11:48:30.213 [error] electron #5: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2024-05-12 11:48:32.514 [error] electron #6: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2024-05-12 11:48:43.753 [error] electron #7: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2024-05-12 11:48:47.331 [error] electron #8: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2024-05-12 11:48:52.343 [error] electron #9: https://update.code.visualstudio.com/api/update/linux-x64/stable/e170252f762678dec6ca2cc69aba1570769a5d39 - error undefined net::ERR_INTERNET_DISCONNECTED
+2024-05-12 11:49:11.785 [error] electron #10: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED
+2024-05-12 11:49:14.437 [error] electron #11: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_INTERNET_DISCONNECTED

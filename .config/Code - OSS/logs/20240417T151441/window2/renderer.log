@@ -1,0 +1,33 @@
+2024-04-17 15:15:04.515 [info] Started local extension host with pid 5737.
+2024-04-17 15:15:07.163 [info] [perf] Render performance baseline is 25ms
+2024-04-17 15:37:48.571 [error] Cancelled: Canceled
+    at _.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:28974)
+    at async _.z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:25774)
+    at async Z (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:24704)
+    at async _.query (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:785:25002)
+    at async oe.queryGallery (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2909:13350)
+    at async Te.Hc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2845:23086)
+    at async Te.rc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2845:14713)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2845:13012
+2024-04-17 15:37:48.574 [error] Error: Unable to resolve nonexistent file '/usr/lib/code/extensions'
+    at $.resolve (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14671)
+    at async F.n (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:91665)
+    at async F.scanExtensions (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:91439)
+    at async m.M (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:88751)
+    at async Promise.all (index 0)
+    at async m.scanSystemExtensions (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:83570)
+    at async Promise.all (index 0)
+    at async m.scanAllExtensions (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:83230)
+    at async W.scanExtensions (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109799)
+    at async f.call (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:22752)
+2024-04-17 15:37:48.575 [error] Error: Unable to resolve nonexistent file '/usr/lib/code/extensions'
+    at $.resolve (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14671)
+    at async F.n (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:91665)
+    at async F.scanExtensions (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:91439)
+    at async m.M (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:88751)
+    at async Promise.all (index 0)
+    at async m.scanSystemExtensions (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:83570)
+    at async Promise.all (index 0)
+    at async m.scanAllExtensions (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:83230)
+    at async W.scanExtensions (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:109799)
+    at async f.call (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:22752)

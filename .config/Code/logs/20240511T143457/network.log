@@ -1,0 +1,5 @@
+2024-05-11 14:34:58.805 [error] electron #1: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2024-05-11 14:34:59.608 [error] electron #2: https://update.code.visualstudio.com/api/update/linux-x64/stable/e170252f762678dec6ca2cc69aba1570769a5d39 - error undefined net::ERR_NAME_NOT_RESOLVED
+2024-05-11 14:35:00.748 [error] electron #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2024-05-11 14:35:03.464 [error] electron #4: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED
+2024-05-11 14:35:04.185 [error] electron #5: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_NAME_NOT_RESOLVED

@@ -1,0 +1,5 @@
+Talk :
+1. Qu'est ce que c'est sh, bash, zsh ? (Un language de commandes UNIX utilisé par tous les systèmes Linux crée en 1971).
+Bash = Bourne Again shell
+zsh = Zshell.
+2. La différence entre le scripting et la programmation.

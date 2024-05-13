@@ -1,0 +1,12 @@
+2024-04-17 00:56:00.068 [info] Extension host with pid 1335 started
+2024-04-17 00:56:00.068 [info] Skipping acquiring lock for /home/lyzer/.config/Code - OSS/User/workspaceStorage/920cc3a756d6e9fc8b7f1e03f6993c73.
+2024-04-17 00:56:00.168 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-17 00:56:00.419 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-17 00:56:00.470 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-17 00:56:00.490 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-17 00:56:00.522 [info] Eager extensions activated
+2024-04-17 00:56:00.540 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-17 00:56:00.542 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-17 00:56:00.546 [info] ExtensionService#_doActivateExtension shardulm94.trailing-spaces, startup: false, activationEvent: 'onStartupFinished'
+2024-04-17 01:37:46.108 [info] Extension host terminating: renderer closed the MessagePort
+2024-04-17 01:37:46.111 [info] Extension host with pid 1335 exiting with code 0

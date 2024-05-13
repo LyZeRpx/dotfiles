@@ -1,0 +1,19 @@
+2024/05/11-15:10:28.767 4 Reusing MANIFEST /home/lyzer/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2024/05/11-15:10:28.771 4 Recovering log #959
+2024/05/11-15:10:28.772 4 Reusing old log /home/lyzer/.config/chromium/Default/Local Storage/leveldb/000959.log 
+2024/05/11-15:12:15.984 4 Level-0 table #963: started
+2024/05/11-15:12:15.988 4 Level-0 table #963: 35678 bytes OK
+2024/05/11-15:12:15.990 4 Delete type=0 #959
+2024/05/11-15:12:15.991 4 Compacting 4@0 + 3@1 files
+2024/05/11-15:12:16.007 4 Generated table #964@0: 526 keys, 2374552 bytes
+2024/05/11-15:12:16.026 4 Generated table #965@0: 675 keys, 2400447 bytes
+2024/05/11-15:12:16.035 4 Generated table #966@0: 384 keys, 843276 bytes
+2024/05/11-15:12:16.035 4 Compacted 4@0 + 3@1 files => 5618275 bytes
+2024/05/11-15:12:16.036 4 compacted to: files[ 0 3 0 0 0 0 0 ]
+2024/05/11-15:12:16.036 4 Delete type=2 #963
+2024/05/11-15:12:16.036 4 Delete type=2 #951
+2024/05/11-15:12:16.036 4 Delete type=2 #952
+2024/05/11-15:12:16.036 4 Delete type=2 #953
+2024/05/11-15:12:16.036 4 Delete type=2 #955
+2024/05/11-15:12:16.036 4 Delete type=2 #958
+2024/05/11-15:12:16.036 4 Delete type=2 #960

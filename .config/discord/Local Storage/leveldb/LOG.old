@@ -1,0 +1,20 @@
+2024/05/11-15:14:06.658 115d Reusing MANIFEST /home/lyzer/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/05/11-15:14:06.663 115d Recovering log #183
+2024/05/11-15:14:06.663 115d Reusing old log /home/lyzer/.config/discord/Local Storage/leveldb/000183.log 
+2024/05/11-15:15:07.471 115d Level-0 table #187: started
+2024/05/11-15:15:07.480 115d Level-0 table #187: 77784 bytes OK
+2024/05/11-15:15:07.482 115d Delete type=0 #183
+2024/05/11-15:18:07.290 115c Level-0 table #189: started
+2024/05/11-15:18:07.307 115c Level-0 table #189: 3076471 bytes OK
+2024/05/11-15:18:07.308 115c Delete type=0 #186
+2024/05/11-15:18:07.309 115c Compacting 4@0 + 2@1 files
+2024/05/11-15:18:07.315 115c Generated table #190@0: 12 keys, 2315695 bytes
+2024/05/11-15:18:07.328 115c Generated table #191@0: 95 keys, 3143864 bytes
+2024/05/11-15:18:07.329 115c Compacted 4@0 + 2@1 files => 5459559 bytes
+2024/05/11-15:18:07.330 115c compacted to: files[ 0 3 1 0 0 0 0 ]
+2024/05/11-15:18:07.330 115c Delete type=2 #184
+2024/05/11-15:18:07.330 115c Delete type=2 #187
+2024/05/11-15:18:07.330 115c Delete type=2 #189
+2024/05/11-15:18:07.330 115c Delete type=2 #177
+2024/05/11-15:18:07.330 115c Delete type=2 #178
+2024/05/11-15:18:07.330 115c Delete type=2 #181

@@ -1,0 +1,12 @@
+2024-04-16 18:53:03.871 [info] Extension host with pid 5741 started
+2024-04-16 18:53:03.871 [info] Skipping acquiring lock for /home/lyzer/.config/Code - OSS/User/workspaceStorage/ae31903d64fe452615244ad32a584f5a.
+2024-04-16 18:53:03.886 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-16 18:53:03.907 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-16 18:53:03.932 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-16 18:53:04.037 [info] Eager extensions activated
+2024-04-16 18:53:04.081 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-16 18:53:04.084 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-16 18:53:04.090 [info] ExtensionService#_doActivateExtension shardulm94.trailing-spaces, startup: false, activationEvent: 'onStartupFinished'
+2024-04-16 18:53:08.522 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-16 19:01:42.069 [info] Extension host terminating: renderer closed the MessagePort
+2024-04-16 19:01:42.072 [info] Extension host with pid 5741 exiting with code 0

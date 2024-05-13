@@ -1,0 +1,6 @@
+2024-04-17 15:14:41.986 [info] update#setState disabled
+2024-04-17 15:14:41.987 [info] update#ctor - updates are disabled as there is no update URL
+2024-04-17 15:15:06.623 [info] Extension host with pid 5452 exited with code: 0, signal: unknown.
+2024-04-17 15:54:39.246 [error] CodeWindow: failed to load (reason: ERR_FILE_NOT_FOUND, code: -6)
+2024-04-17 16:01:22.252 [info] Extension host with pid 5737 exited with code: 0, signal: unknown.
+2024-04-17 16:01:22.274 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 5726]: crashed with code 15 and reason 'killed'

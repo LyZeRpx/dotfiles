@@ -1,0 +1,19 @@
+2024-05-11 14:34:59.167 [info] Log level: Info
+2024-05-11 14:34:59.167 [info] Validating found git in: "git"
+2024-05-11 14:34:59.167 [info] Using git "2.45.0" from "git"
+2024-05-11 14:34:59.167 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-11 14:34:59.172 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-05-11 14:34:59.175 [info] Open repository: /home/lyzer/B-PSU-200-PAR-2-1-minishell2-liam.harfouche
+2024-05-11 14:34:59.186 [info] > git config --get commit.template [6ms]
+2024-05-11 14:34:59.187 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-11 14:34:59.193 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [3ms]
+2024-05-11 14:34:59.197 [info] > git rev-parse --show-toplevel [5ms]
+2024-05-11 14:34:59.202 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-11 14:34:59.205 [info] > git status -z -uall [10ms]
+2024-05-11 14:34:59.218 [info] > git config --get commit.template [3ms]
+2024-05-11 14:34:59.222 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [1ms]
+2024-05-11 14:34:59.226 [info] > git status -z -uall [2ms]
+2024-05-11 14:34:59.843 [info] > git check-ignore -v -z --stdin [7ms]
+2024-05-11 14:35:01.840 [info] > git ls-files --stage -- /home/lyzer/B-PSU-200-PAR-2-1-minishell2-liam.harfouche/Makefile [1ms]
+2024-05-11 14:35:01.843 [info] > git show --textconv :Makefile [8ms]
+2024-05-11 14:35:01.844 [info] > git cat-file -s 2aa08b4dbc62d6181157a8e1836e2f89e1974a64 [2ms]
